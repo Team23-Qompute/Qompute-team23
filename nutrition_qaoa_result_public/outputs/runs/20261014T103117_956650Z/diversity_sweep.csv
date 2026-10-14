@@ -1,0 +1,8 @@
+diversity_weight,menu_index,menu,total_servings,distinct_foods,nutrition_cost,diversity_reward,policy_cost,potassium_mg,sodium_mg
+0.0,7098,"oatmealx1, chickenx2, ricex3, vegetablesx2, bananax3, peanut_butterx2, pizzax2",15,7,0.0,-0.0,0.0,3404.0,2118.0
+0.0025,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.0025,-0.0025,3810.0,2295.0
+0.005,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.005,-0.005,3810.0,2295.0
+0.01,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.01,-0.01,3810.0,2295.0
+0.02,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.02,-0.02,3810.0,2295.0
+0.05,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.05,-0.05,3810.0,2295.0
+0.1,47606,"eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",17,8,0.0,-0.1,-0.1,3810.0,2295.0

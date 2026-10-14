@@ -1,0 +1,11 @@
+{
+  "energy_target": 2600,
+  "protein_range": [120, 180],
+  "carbs_range": [280, 360],
+  "fat_range": [60, 100],
+  "potassium_minimum": 3000,
+  "sodium_range": [1500, 2300],
+  "weights": [1.0, 1.0, 1.0, 1.0, 1.0, 0.25, 1.0],
+  "diversity_reward": 0.02,
+  "max_servings_per_food": 3
+}

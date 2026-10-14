@@ -1,0 +1,30 @@
+{
+  "hostname": "REDACTED_CLUSTER_HOST",
+  "system": "Linux",
+  "machine": "x86_64",
+  "linux_x64": true,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": null,
+    "NVIDIA_VISIBLE_DEVICES": null,
+    "SLURM_JOB_GPUS": null,
+    "SLURM_GPUS_ON_NODE": null,
+    "PBS_GPUFILE": null
+  },
+  "nvidia_smi_path": null,
+  "nvidia_smi_exit_code": null,
+  "nvidia_smi_stdout": "",
+  "nvidia_smi_stderr": "",
+  "nvidia_smi_error": null,
+  "cuda": {
+    "library": "libcuda.so.1",
+    "load_error": "libcuda.so.1: cannot open shared object file: No such file or directory",
+    "init_result": null,
+    "device_count_result": null,
+    "device_count": 0,
+    "driver_version_result": null,
+    "driver_version_raw": null,
+    "driver_cuda_major": null
+  },
+  "visible": false,
+  "reason": "CUDA driver library libcuda.so.1 is unavailable in this kernel"
+}

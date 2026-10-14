@@ -1,0 +1,10 @@
+{
+  "python": "3.11.9 (main, Jun  4 2024, 14:22:24) [GCC 13.3.0]",
+  "executable": "/home/REDACTED_USER/py311-kernel/bin/python",
+  "platform": "Linux-4.18.0-553.126.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "cpu_count_visible": 64,
+  "project_dir": "/home/REDACTED_USER/qutam/nutrition_qaoa_extended_ebc7c3a2268f",
+  "run_id": "20261014T103117_956650Z",
+  "archive_path": "/home/REDACTED_USER/qutam/nutrition_qaoa_extended.tar.gz",
+  "bundle_sha256": "ebc7c3a2268f3d27ef74b8ab92b53a8b04d644cb253d70258c7e3625570924f6"
+}

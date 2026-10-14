@@ -1,0 +1,43 @@
+{
+  "run_qaoa": true,
+  "depths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "qaoa_seeds": [
+    1,
+    7,
+    21
+  ],
+  "restarts": 3,
+  "optimizers": [
+    "COBYLA",
+    "Nelder-Mead"
+  ],
+  "max_evaluations": 400,
+  "shots": 4096,
+  "shot_counts": [
+    1024,
+    4096,
+    16384
+  ],
+  "sensitivity_runs": 100,
+  "seed": 7,
+  "requested_device": "AUTO",
+  "effective_device": "CPU",
+  "cuda_major": null,
+  "detected_cuda_major": null,
+  "check_gpu_queue": true,
+  "slurm_account": "REDACTED_SLURM_ACCOUNT",
+  "queue_hours": 4,
+  "queue_constraints": [
+    "a100-80gb",
+    "a100",
+    "a40",
+    "l40s",
+    "v100"
+  ],
+  "gpu_fallback_error": null
+}

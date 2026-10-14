@@ -1,0 +1,18 @@
+{
+  "menus": 65536,
+  "rmse": 0.059983360437844274,
+  "pearson": 0.9934361370157155,
+  "spearman": 0.9919744686450045,
+  "true_best_index": 47606,
+  "surrogate_best_index": 63206,
+  "same_best_menu": false,
+  "true_best_surrogate_rank": 1008,
+  "surrogate_best_true_rank": 28,
+  "surrogate_best_true_cost": -0.01993476331360947,
+  "surrogate_best_true_cost_gap": 6.523668639053098e-05,
+  "near_optimum_width": 0.001,
+  "near_optimum_menus": 138,
+  "near_optimum_mae": 0.07852903484527368,
+  "near_optimum_spearman": 0.17178285299402493,
+  "top_1pct_overlap": 0.6687022900763359
+}

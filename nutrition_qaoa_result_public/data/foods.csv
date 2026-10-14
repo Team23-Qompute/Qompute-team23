@@ -1,0 +1,9 @@
+food,serving_g,fdc_id,source_url,kcal,protein_g,carbs_g,fat_g,potassium_mg,sodium_mg
+eggs,100,172187,https://fdc.nal.usda.gov/fdc-app.html#/food-details/172187/nutrients,149,10.0,1.6,11.0,132,145
+oatmeal,175,173905,https://fdc.nal.usda.gov/fdc-app.html#/food-details/173905/nutrients,124,4.4,21.0,2.7,122,7
+chicken,150,172388,https://fdc.nal.usda.gov/fdc-app.html#/food-details/172388/nutrients,268,37.1,0.0,12.2,406,159
+rice,150,168878,https://fdc.nal.usda.gov/fdc-app.html#/food-details/168878/nutrients,195,4.0,42.3,0.4,52,2
+vegetables,100,169967,https://fdc.nal.usda.gov/fdc-app.html#/food-details/169967/nutrients,35,2.9,7.2,0.4,181,13
+banana,109,173944,https://fdc.nal.usda.gov/fdc-app.html#/food-details/173944/nutrients,97,1.2,24.9,0.4,390,1
+peanut_butter,32,174266,https://fdc.nal.usda.gov/fdc-app.html#/food-details/174266/nutrients,191,7.1,7.1,16.4,179,136
+pizza,108.5,173295,https://fdc.nal.usda.gov/fdc-app.html#/food-details/173295/nutrients,306,12.7,34.7,12.9,212,743

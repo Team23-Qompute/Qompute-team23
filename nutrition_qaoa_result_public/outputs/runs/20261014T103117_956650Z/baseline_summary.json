@@ -1,0 +1,78 @@
+{
+  "search_space": 65536,
+  "fixed_total_servings": false,
+  "true_best": {
+    "menu_index": 47606,
+    "menu": "eggsx2, oatmealx3, chickenx2, ricex1, vegetablesx3, bananax3, peanut_butterx1, pizzax2",
+    "serving_vector": [
+      2,
+      3,
+      2,
+      1,
+      3,
+      3,
+      1,
+      2
+    ],
+    "total_servings": 17,
+    "distinct_foods": 8,
+    "nutrition_cost": 0.0,
+    "diversity_reward": -0.02,
+    "policy_cost": -0.02,
+    "totals": {
+      "kcal": 2600.0,
+      "protein_g": 156.2,
+      "carbs_g": 281.3,
+      "fat_g": 99.5,
+      "potassium_mg": 3810.0,
+      "sodium_mg": 2295.0
+    }
+  },
+  "surrogate_best": {
+    "menu_index": 63206,
+    "menu": "eggsx3, oatmealx3, chickenx1, ricex2, vegetablesx3, bananax2, peanut_butterx1, pizzax2",
+    "serving_vector": [
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      1,
+      2
+    ],
+    "total_servings": 17,
+    "distinct_foods": 8,
+    "nutrition_cost": 6.523668639053254e-05,
+    "diversity_reward": -0.02,
+    "policy_cost": -0.01993476331360947,
+    "totals": {
+      "kcal": 2579.0,
+      "protein_g": 131.89999999999998,
+      "carbs_g": 300.3,
+      "fat_g": 98.30000000000001,
+      "potassium_mg": 3198.0,
+      "sodium_mg": 2282.0
+    }
+  },
+  "surrogate_validation": {
+    "menus": 65536,
+    "rmse": 0.059983360437844274,
+    "pearson": 0.9934361370157155,
+    "spearman": 0.9919744686450045,
+    "true_best_index": 47606,
+    "surrogate_best_index": 63206,
+    "same_best_menu": false,
+    "true_best_surrogate_rank": 1008,
+    "surrogate_best_true_rank": 28,
+    "surrogate_best_true_cost": -0.01993476331360947,
+    "surrogate_best_true_cost_gap": 6.523668639053098e-05,
+    "near_optimum_width": 0.001,
+    "near_optimum_menus": 138,
+    "near_optimum_mae": 0.07852903484527368,
+    "near_optimum_spearman": 0.17178285299402493,
+    "top_1pct_overlap": 0.6687022900763359
+  },
+  "sensitivity_unique_optima": 79,
+  "sensitivity_baseline_optimum_frequency": 0
+}

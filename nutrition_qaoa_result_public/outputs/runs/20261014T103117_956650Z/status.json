@@ -1,0 +1,36 @@
+{
+  "state": "complete",
+  "phase": "complete",
+  "updated_at_utc": "2026-10-14T11:19:06+00:00",
+  "elapsed_seconds": 2866.1,
+  "last_progress_at_utc": "2026-10-14T11:19:06+00:00",
+  "seconds_since_progress": 0.0,
+  "current_operation": {
+    "event": "run_complete",
+    "files": [
+      "baseline_analysis.png",
+      "baseline_summary.json",
+      "diversity_sweep.csv",
+      "environment.json",
+      "gpu_probe.json",
+      "gpu_queue_estimates.json",
+      "notebook.log",
+      "packages.json",
+      "progress.jsonl",
+      "qaoa_runs.csv",
+      "qaoa_seed_summary.csv",
+      "qaoa_shot_sweep.csv",
+      "qaoa_shot_sweep_summary.csv",
+      "qaoa_summary.csv",
+      "qaoa_summary.png",
+      "requested_settings.json",
+      "sensitivity.csv",
+      "status.json",
+      "surrogate_fit_comparison.csv",
+      "surrogate_validation.json"
+    ]
+  },
+  "process_rss_mb": 237.6,
+  "last_active_phase": null,
+  "last_active_operation": null
+}
