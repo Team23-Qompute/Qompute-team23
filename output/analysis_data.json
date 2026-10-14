@@ -1,0 +1,356 @@
+{
+  "description": "Privacy-safe numeric summary of one completed CPU statevector study",
+  "search_space": 65536,
+  "exact_optima": 1,
+  "summary": [
+    {
+      "depth": 1,
+      "optimizer": "COBYLA",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 9,
+      "expected_true_policy_cost_mean": 0.2696356587537313,
+      "expected_true_policy_cost_std": 0.16470545914929366,
+      "expected_qubo_policy_cost_mean": 0.25047169795784313,
+      "p_true_top_1pct_mean": 0.024483336705214048,
+      "p_true_top_1pct_std": 0.016469343962126976,
+      "p_true_optimum_mean": 3.4259388290484284e-05,
+      "p_true_within_0p001_mean": 0.0055755990151972155
+    },
+    {
+      "depth": 1,
+      "optimizer": "Nelder-Mead",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 9,
+      "expected_true_policy_cost_mean": 0.27131295794621874,
+      "expected_true_policy_cost_std": 0.06329925373062509,
+      "expected_qubo_policy_cost_mean": 0.2548534983692558,
+      "p_true_top_1pct_mean": 0.023932557434915343,
+      "p_true_top_1pct_std": 0.005236686579349553,
+      "p_true_optimum_mean": 3.3688452869211065e-05,
+      "p_true_within_0p001_mean": 0.005375991540940657
+    },
+    {
+      "depth": 2,
+      "optimizer": "COBYLA",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 4,
+      "expected_true_policy_cost_mean": 0.26576044121147424,
+      "expected_true_policy_cost_std": 0.08202073867127067,
+      "expected_qubo_policy_cost_mean": 0.2482031351660471,
+      "p_true_top_1pct_mean": 0.04591689334431629,
+      "p_true_top_1pct_std": 0.012074244167144827,
+      "p_true_optimum_mean": 9.427862483392566e-05,
+      "p_true_within_0p001_mean": 0.011912422748365263
+    },
+    {
+      "depth": 2,
+      "optimizer": "Nelder-Mead",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 5,
+      "expected_true_policy_cost_mean": 0.19935902040617925,
+      "expected_true_policy_cost_std": 0.09650012208743627,
+      "expected_qubo_policy_cost_mean": 0.17516125650244355,
+      "p_true_top_1pct_mean": 0.05019560044658906,
+      "p_true_top_1pct_std": 0.01933698611196699,
+      "p_true_optimum_mean": 0.00015980023884036858,
+      "p_true_within_0p001_mean": 0.013682540405120167
+    },
+    {
+      "depth": 3,
+      "optimizer": "COBYLA",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 2,
+      "expected_true_policy_cost_mean": 0.3345431995772734,
+      "expected_true_policy_cost_std": 0.08102022393884681,
+      "expected_qubo_policy_cost_mean": 0.32928024747635704,
+      "p_true_top_1pct_mean": 0.032969344193120885,
+      "p_true_top_1pct_std": 0.01072198162279966,
+      "p_true_optimum_mean": 3.9940986700197236e-05,
+      "p_true_within_0p001_mean": 0.009389833157684048
+    },
+    {
+      "depth": 3,
+      "optimizer": "Nelder-Mead",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 0,
+      "expected_true_policy_cost_mean": 0.24778598399955956,
+      "expected_true_policy_cost_std": 0.03715694622641613,
+      "expected_qubo_policy_cost_mean": 0.23232135302469023,
+      "p_true_top_1pct_mean": 0.05041200105050697,
+      "p_true_top_1pct_std": 0.004518388941845469,
+      "p_true_optimum_mean": 8.425645680224768e-05,
+      "p_true_within_0p001_mean": 0.012897281793115762
+    },
+    {
+      "depth": 4,
+      "optimizer": "COBYLA",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 1,
+      "expected_true_policy_cost_mean": 0.28232498499702047,
+      "expected_true_policy_cost_std": 0.08482110320560356,
+      "expected_qubo_policy_cost_mean": 0.27053995160982525,
+      "p_true_top_1pct_mean": 0.04773333271068791,
+      "p_true_top_1pct_std": 0.010382722125534233,
+      "p_true_optimum_mean": 8.325321462829141e-05,
+      "p_true_within_0p001_mean": 0.014233430214172435
+    },
+    {
+      "depth": 4,
+      "optimizer": "Nelder-Mead",
+      "seeds": 3,
+      "runs": 9,
+      "successful_runs": 0,
+      "expected_true_policy_cost_mean": 0.22351303773916398,
+      "expected_true_policy_cost_std": 0.0724260701620569,
+      "expected_qubo_policy_cost_mean": 0.20340646136732307,
+      "p_true_top_1pct_mean": 0.05698266989087655,
+      "p_true_top_1pct_std": 0.012911152402180773,
+      "p_true_optimum_mean": 0.00021942332121726983,
+      "p_true_within_0p001_mean": 0.01729076466738209
+    }
+  ],
+  "seed_summary": [
+    {
+      "depth": 1,
+      "optimizer": "COBYLA",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.44899409466713674,
+      "p_true_top_1pct_mean": 0.005574445035095334
+    },
+    {
+      "depth": 1,
+      "optimizer": "COBYLA",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.1251768654645904,
+      "p_true_top_1pct_mean": 0.0356926763828276
+    },
+    {
+      "depth": 1,
+      "optimizer": "COBYLA",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.23473601612946682,
+      "p_true_top_1pct_mean": 0.0321828886977192
+    },
+    {
+      "depth": 1,
+      "optimizer": "Nelder-Mead",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.2331248879597414,
+      "p_true_top_1pct_mean": 0.02565205623139147
+    },
+    {
+      "depth": 1,
+      "optimizer": "Nelder-Mead",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.23643432387552302,
+      "p_true_top_1pct_mean": 0.028093303953120947
+    },
+    {
+      "depth": 1,
+      "optimizer": "Nelder-Mead",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.3443796620033919,
+      "p_true_top_1pct_mean": 0.018052312120233605
+    },
+    {
+      "depth": 2,
+      "optimizer": "COBYLA",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.3198632150809407,
+      "p_true_top_1pct_mean": 0.03473659805713974
+    },
+    {
+      "depth": 2,
+      "optimizer": "COBYLA",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.1713884113289578,
+      "p_true_top_1pct_mean": 0.058720786213270114
+    },
+    {
+      "depth": 2,
+      "optimizer": "COBYLA",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.30602969722452417,
+      "p_true_top_1pct_mean": 0.04429329576253902
+    },
+    {
+      "depth": 2,
+      "optimizer": "Nelder-Mead",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.10082583637534219,
+      "p_true_top_1pct_mean": 0.06713769841342931
+    },
+    {
+      "depth": 2,
+      "optimizer": "Nelder-Mead",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.20356252002383832,
+      "p_true_top_1pct_mean": 0.029129194411624315
+    },
+    {
+      "depth": 2,
+      "optimizer": "Nelder-Mead",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.2936887048193572,
+      "p_true_top_1pct_mean": 0.05431990851471356
+    },
+    {
+      "depth": 3,
+      "optimizer": "COBYLA",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.3881903877589015,
+      "p_true_top_1pct_mean": 0.02801992900172388
+    },
+    {
+      "depth": 3,
+      "optimizer": "COBYLA",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.3740955129172027,
+      "p_true_top_1pct_mean": 0.025616114219469955
+    },
+    {
+      "depth": 3,
+      "optimizer": "COBYLA",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.2413436980557159,
+      "p_true_top_1pct_mean": 0.04527198935816882
+    },
+    {
+      "depth": 3,
+      "optimizer": "Nelder-Mead",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.2798109255787201,
+      "p_true_top_1pct_mean": 0.048089240972514956
+    },
+    {
+      "depth": 3,
+      "optimizer": "Nelder-Mead",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.2565008460728519,
+      "p_true_top_1pct_mean": 0.05561929604719256
+    },
+    {
+      "depth": 3,
+      "optimizer": "Nelder-Mead",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.20704618034710678,
+      "p_true_top_1pct_mean": 0.04752746613181339
+    },
+    {
+      "depth": 4,
+      "optimizer": "COBYLA",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.18638280623847656,
+      "p_true_top_1pct_mean": 0.059228426612893716
+    },
+    {
+      "depth": 4,
+      "optimizer": "COBYLA",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.3473531345073159,
+      "p_true_top_1pct_mean": 0.03903654333640897
+    },
+    {
+      "depth": 4,
+      "optimizer": "COBYLA",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.31323901424526907,
+      "p_true_top_1pct_mean": 0.04493502818276104
+    },
+    {
+      "depth": 4,
+      "optimizer": "Nelder-Mead",
+      "seed": 1,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.24187669289864414,
+      "p_true_top_1pct_mean": 0.060815011704091704
+    },
+    {
+      "depth": 4,
+      "optimizer": "Nelder-Mead",
+      "seed": 7,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.14367275159990703,
+      "p_true_top_1pct_mean": 0.06754378729232495
+    },
+    {
+      "depth": 4,
+      "optimizer": "Nelder-Mead",
+      "seed": 21,
+      "restarts_completed": 3,
+      "expected_true_policy_cost_mean": 0.28498966871894077,
+      "p_true_top_1pct_mean": 0.04258921067621299
+    }
+  ],
+  "shot_observations": [
+    {
+      "shots": 1024,
+      "runs": 72,
+      "exact_hits": 5
+    },
+    {
+      "shots": 4096,
+      "runs": 72,
+      "exact_hits": 15
+    },
+    {
+      "shots": 16384,
+      "runs": 72,
+      "exact_hits": 36
+    }
+  ],
+  "surrogate_fits": [
+    {
+      "fit": "uniform",
+      "global_spearman": 0.9919744686450045,
+      "near_optimum_spearman": 0.17178285299402493,
+      "near_optimum_mae": 0.07852903484527368,
+      "near_optimum_menus": 138,
+      "surrogate_best_true_rank": 28
+    },
+    {
+      "fit": "lowest_1pct_nutrition_x10",
+      "global_spearman": 0.9898198188930422,
+      "near_optimum_spearman": 0.08168926616878504,
+      "near_optimum_mae": 0.050058035136661426,
+      "near_optimum_menus": 138,
+      "surrogate_best_true_rank": 216
+    },
+    {
+      "fit": "lowest_1pct_nutrition_x100",
+      "global_spearman": 0.9866073106773081,
+      "near_optimum_spearman": 0.0854610503916765,
+      "near_optimum_mae": 0.015355371950018326,
+      "near_optimum_menus": 138,
+      "surrogate_best_true_rank": 1245
+    }
+  ]
+}
