@@ -97,11 +97,12 @@ model preference, not a claim that every one of these eight foods is required.
 
 ## Run from Jupyter on a server
 
-Upload the **two individual files** from
-[`nutrition_qaoa_upload`](../nutrition_qaoa_upload) to the same directory in
-Jupyter: `start_here.ipynb` and `nutrition_qaoa_extended.tar.gz`. That local
-upload directory contains only these two files. You do not need to upload a
-folder. The first notebook cell validates the archive,
+Download the **two individual files** from the root of the `qaoa_new` branch:
+[`start_here.ipynb`](../start_here.ipynb) and
+[`nutrition_qaoa_extended.tar.gz`](../nutrition_qaoa_extended.tar.gz).
+Upload them to the same directory in Jupyter. You do not need to upload a
+folder. If you already have the complete source checkout, this folder's
+notebook can also use the local project files directly. The first notebook cell validates the archive,
 unpacks it into a versioned project directory, and checks that `data/foods.csv`
 and the other required inputs are present before installing anything. Always
 upload the current notebook and archive together after updating the project.

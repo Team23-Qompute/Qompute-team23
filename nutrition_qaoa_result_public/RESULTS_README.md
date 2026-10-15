@@ -4,6 +4,11 @@
 `outputs/runs/20261014T103117_956650Z/`, including QAOA trial data, summaries,
 plots, progress records, and environment diagnostics. The run completed on CPU.
 
+For a fresh server run, use the root [runnable notebook](../start_here.ipynb)
+and its matching [upload archive](../nutrition_qaoa_extended.tar.gz). The root
+notebook has cleared outputs; this folder's notebook preserves the completed
+run for inspection.
+
 This folder also contains the model, experiment code, tests, requirements, and
 food data used by the notebook. When opened from this folder, the notebook can
 use these files directly; the upload archive is not needed. Running all cells
