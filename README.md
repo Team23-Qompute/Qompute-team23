@@ -3,6 +3,9 @@
 This branch, **`qaoa_new`**, contains the revised experiment and its completed
 results. The repository's default `main` branch still shows the earlier work.
 
+**Read the [experimental results report](REPORT.md)** for the findings,
+figures, explanation of depth 2 versus depth 4, and limitations.
+
 ## Start here
 
 Download these **two files** into the same Jupyter directory:
